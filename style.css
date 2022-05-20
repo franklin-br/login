@@ -47,6 +47,15 @@ main h2::before {
     background: linear-gradient(45deg, #c42de2, #8e00e0);
 }
 
+.button [type="submit"] {
+    background: linear-gradient(to left, #c42de2, #8e00e0);
+    margin: 10px 0px;
+    padding: 0.4rem;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
 .input-field {
     position: relative;
 }
@@ -62,7 +71,7 @@ main h2::before {
 }
 
 form input[type="submit"] {
-    margin-top: 2rem;
+    margin: 15px 0px;
     padding: 0.4rem;
     background: linear-gradient(to left, #4776E6, #8e54e9);
     cursor: pointer;
